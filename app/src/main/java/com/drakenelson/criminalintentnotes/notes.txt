@@ -7,3 +7,5 @@ recyclerView works with an adapter to keep things full
 the adapter fills things in
 
 gradle: dependency manager that
+
+add the maven dependency com.android.support:recyclerview
