@@ -1,0 +1,9 @@
+page 176 is where the screen starts to get filled
+
+recyclerView holds ViewHolders
+each viewholder holds a view
+
+recyclerView works with an adapter to keep things full
+the adapter fills things in
+
+gradle: dependency manager that
