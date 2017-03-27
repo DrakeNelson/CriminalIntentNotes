@@ -9,3 +9,9 @@ the adapter fills things in
 gradle: dependency manager that
 
 add the maven dependency com.android.support:recyclerview
+
+the adapter is the connection between the view and database;
+we use an arraylist in the adapter to hold a list of crimes
+when we create a viewholder it creates a blank list of crimes
+getItemCount figures out how many items there are
+onBindViewHolder puts a specific piece of data in a specific view (plug-in)

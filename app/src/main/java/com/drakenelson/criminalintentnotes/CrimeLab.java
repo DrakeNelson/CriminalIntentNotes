@@ -14,9 +14,11 @@ import java.util.UUID;
 public class CrimeLab {
     private static CrimeLab sCrimeLab;
 
+
     private List<Crime> mCrimes;
 
     public static String TAG = "CrimeLab";
+    private List<Crime> crimes;
 
 
     private CrimeLab(Context context){
@@ -26,6 +28,7 @@ public class CrimeLab {
             crime.setmTitle("Crime #" + i + " " + (char) (0x2600 + (int) ((Math.random() * 255))));
             Log.d(TAG, crime.getmTitle());
             crime.setSolved(i % 2 == 0);
+            mCrimes.add(crime);
         }
     }
 
@@ -43,5 +46,9 @@ public class CrimeLab {
             }
         }
         return null;
+    }
+
+    public List<Crime> getCrimes() {
+        return mCrimes;
     }
 }
