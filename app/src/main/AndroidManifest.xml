@@ -16,7 +16,7 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".CrimeActivity">
+        <activity android:name=".CrimePagerActivity">
 
             <!--take out the old launcher<intent-filter>-->
                 <!--<action android:name="android.intent.action.MAIN" />-->
