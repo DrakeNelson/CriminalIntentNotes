@@ -18,7 +18,7 @@ public class CrimeLab {
     private List<Crime> mCrimes;
 
     public static String TAG = "CrimeLab";
-    private List<Crime> crimes;
+    //private List<Crime> crimes;
 
 
     private CrimeLab(Context context){
